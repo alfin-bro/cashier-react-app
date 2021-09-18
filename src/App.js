@@ -29,7 +29,7 @@ function App() {
       .get(`/menus?category.name=${showCategories}`)
       .then((result) => setMenus(result.data))
       .catch((err) => console.log(err));
-  }, []);
+  }, [showCategories]);
 
   const getCart = async () => {
     await api.get("cart").then((res) => {
@@ -122,7 +122,7 @@ function App() {
   useEffect(() => {
     getCart();
     getMenus();
-  }, [showCategories]);
+  }, [showCategories, getMenus]);
 
   return (
     <>
