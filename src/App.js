@@ -122,7 +122,7 @@ function App() {
   useEffect(() => {
     getCart();
     getMenus();
-  }, [showCategories]);
+  }, [showCategories, getMenus]);
 
   return (
     <>
