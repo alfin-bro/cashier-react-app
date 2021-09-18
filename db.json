@@ -244,5 +244,28 @@
     }
   ],
   "cart": [],
-  "order": []
+  "order": [
+    {
+      "menusOrder": [
+        {
+          "amount": 1,
+          "totalPrice": 20,
+          "product": {
+            "id": 10,
+            "code": "K-10",
+            "name": "Cookies",
+            "price": 20,
+            "isReady": true,
+            "image": "https://images.unsplash.com/photo-1618923850107-d1a234d7a73a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGNvb2tpZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "category": {
+              "id": 3,
+              "name": "Snack"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 1
+    }
+  ]
 }
