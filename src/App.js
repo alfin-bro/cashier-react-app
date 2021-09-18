@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import swal from "sweetalert";
 import { api } from "./api/api";
 import "./App.css";
@@ -24,12 +24,12 @@ function App() {
     getMenus();
   };
 
-  const getMenus = async () => {
-    await api
+  const getMenus = useCallback(() => {
+    api
       .get(`/menus?category.name=${showCategories}`)
       .then((result) => setMenus(result.data))
       .catch((err) => console.log(err));
-  };
+  }, []);
 
   const getCart = async () => {
     await api.get("cart").then((res) => {
@@ -122,7 +122,7 @@ function App() {
   useEffect(() => {
     getCart();
     getMenus();
-  }, [showCategories, getMenus]);
+  }, [showCategories]);
 
   return (
     <>
