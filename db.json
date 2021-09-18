@@ -1,0 +1,248 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Food"
+    },
+    {
+      "id": 2,
+      "name": "Drink"
+    },
+    {
+      "id": 3,
+      "name": "Snack"
+    }
+  ],
+  "menus": [
+    {
+      "id": 1,
+      "code": "K-01",
+      "name": "Pizza meal Special",
+      "price": 500,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1593246049226-ded77bf90326?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBpenphfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 1,
+        "name": "Food"
+      }
+    },
+    {
+      "id": 2,
+      "code": "K-02",
+      "name": "Pizza Mozzarela",
+      "price": 400,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fHBpenphJTIwbW96emFyZWxsYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 1,
+        "name": "Food"
+      }
+    },
+    {
+      "id": 3,
+      "code": "K-03",
+      "name": "Soup Indian",
+      "price": 200,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1578020190125-f4f7c18bc9cb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGluZGlhbiUyMHNvdXB8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 1,
+        "name": "Food"
+      }
+    },
+    {
+      "id": 4,
+      "code": "K-04",
+      "name": "Burger Huge",
+      "price": 500,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGh1Z2UlMjBidXJnZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 1,
+        "name": "Food"
+      }
+    },
+    {
+      "id": 5,
+      "code": "K-01",
+      "name": "Pizza Special",
+      "price": 500,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBpenphJTIwc3BlY2lhbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 1,
+        "name": "Food"
+      }
+    },
+    {
+      "id": 6,
+      "code": "K-06",
+      "name": "Salad fruity",
+      "price": 100,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1498601894320-137c9a97451b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE0fHxzYWxhZCUyMGZydWl0eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 1,
+        "name": "Food"
+      }
+    },
+    {
+      "id": 7,
+      "code": "K-07",
+      "name": "Salad ordinary",
+      "price": 300,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1556386734-4227a180d19e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHNhbGFkJTIwZnJ1aXR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 1,
+        "name": "Food"
+      }
+    },
+    {
+      "id": 8,
+      "code": "K-08",
+      "name": "French fries",
+      "price": 70,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1606755456206-b25206cde27e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlbmNoJTIwZnJpZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 3,
+        "name": "Snack"
+      }
+    },
+    {
+      "id": 9,
+      "code": "K-09",
+      "name": "Ice Cream",
+      "price": 40,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1557142046-c704a3adf364?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 3,
+        "name": "Snack"
+      }
+    },
+    {
+      "id": 10,
+      "code": "K-10",
+      "name": "Cookies",
+      "price": 20,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1618923850107-d1a234d7a73a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGNvb2tpZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 3,
+        "name": "Snack"
+      }
+    },
+    {
+      "id": 11,
+      "code": "K-11",
+      "name": "Cupcakes",
+      "price": 70,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y3VwY2FrZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 3,
+        "name": "Snack"
+      }
+    },
+    {
+      "id": 12,
+      "code": "K-12",
+      "name": "Potato Chips",
+      "price": 70,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1617102738820-bee2545405fd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG90YXRvJTIwY2hpcHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 3,
+        "name": "Snack"
+      }
+    },
+    {
+      "id": 13,
+      "code": "K-13",
+      "name": "Candies",
+      "price": 70,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1520966347624-b86c3042b3b2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjF8fGNhbmRpZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 3,
+        "name": "Snack"
+      }
+    },
+    {
+      "id": 14,
+      "code": "K-14",
+      "name": "Yogurt",
+      "price": 100,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1619855328104-090bd44a4bb0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8eW91Z3VydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 2,
+        "name": "Drink"
+      }
+    },
+    {
+      "id": 15,
+      "code": "K-15",
+      "name": "Milkshake",
+      "price": 100,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1599937577325-e38f27f010db?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fG1pbGtzaGFrZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 2,
+        "name": "Drink"
+      }
+    },
+    {
+      "id": 16,
+      "code": "K-16",
+      "name": "Orange Juice",
+      "price": 150,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1618881158808-8a20f18d516e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fG9yYW5nZSUyMGp1aWNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 2,
+        "name": "Drink"
+      }
+    },
+    {
+      "id": 17,
+      "code": "K-17",
+      "name": "Rainbow Cakes",
+      "price": 100,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1614356733695-6f0dacb26c3c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fHJhaW5ib3clMjBkcmlua3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 2,
+        "name": "Drink"
+      }
+    },
+    {
+      "id": 18,
+      "code": "K-18",
+      "name": "Green Healthy",
+      "price": 90,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1594053186687-7788bbcd6ea6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 2,
+        "name": "Drink"
+      }
+    },
+    {
+      "id": 19,
+      "code": "K-14",
+      "name": "Rainbow Juice",
+      "price": 100,
+      "isReady": true,
+      "image": "https://images.unsplash.com/photo-1613934619052-27d9464c8819?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRyaW5rfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "category": {
+        "id": 2,
+        "name": "Drink"
+      }
+    }
+  ],
+  "cart": [],
+  "order": []
+}
