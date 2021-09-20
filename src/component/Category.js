@@ -11,7 +11,7 @@ const Category = ({ showCategories, chooseCategories }) => {
   const [categories, setCategories] = useState([]);
   const getCategories = () => {
     api
-      .get("/categories")
+      .get("categories")
       .then((result) => setCategories(result.data))
       .catch((err) => console.log(err));
   };

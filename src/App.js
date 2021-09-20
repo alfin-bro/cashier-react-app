@@ -26,7 +26,7 @@ function App() {
 
   const getMenus = useCallback(() => {
     api
-      .get(`/menus?category.name=${showCategories}`)
+      .get(`menus?category.name=${showCategories}`)
       .then((result) => setMenus(result.data))
       .catch((err) => console.log(err));
   }, [showCategories]);
